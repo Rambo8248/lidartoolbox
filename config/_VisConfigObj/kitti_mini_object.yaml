@@ -1,0 +1,47 @@
+
+data_root : "./data/KITTI-Object/mini_training"
+
+# label dir 
+label_dir : "/home/nio/_Coding/Panoptic-PolarNet/out/SemKITTI/sequences/11/predictions"
+#label_dir : "/home/nio/_Coding/Panoptic-PolarNet/out/SemKITTI/sequences/55_60/predictions"
+#pred_dir : "/home/nio/_Coding/Panoptic-PolarNet/out/SemKITTI/sequences/11/predictions"
+bool_compare : True
+bool_inv : True
+
+dataset_cfg_path : "./config/_VisDatasetYAML/semantic-kitti.yaml"
+
+# this store the viewpoint initialization config, which can copy from open3d GUI (json file) to modify initialization of the viewpoint
+viewpoint_cfg_path : "./config/_VisViewJson/viewpoint.json"
+ctr_viewpoint_cfg_path : "./config/_VisViewJson/bev.json"
+#viewpoint_cfg_path : "../_VisViewJson/bev.json"
+
+start_frame : 0
+#start_frame : 100
+#end_frame : 200
+end_frame : -1
+interval : 1
+
+# left top point position of GUI
+position : 
+  left : 300
+  top : 100
+  width : 1400
+  height : 800
+#
+#  left: 0
+#  top: 0
+#  width: 2560
+#  height: 1080
+
+# open3d pcd point size
+point_size : 2
+background_color : [0.0,0.0,0.0]
+#background_color : [1.00,1.00,1.00]
+background_points_color : [1.00,1.00,1.00]
+#background_points_color : [0.0,0.0,0.0]
+#target_label_list : [10,11,40,50]
+target_label_list : []
+
+
+correct_color : [0,1,0]
+wrong_color : [1,0,0]

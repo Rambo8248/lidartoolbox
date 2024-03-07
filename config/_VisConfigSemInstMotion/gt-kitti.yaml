@@ -1,0 +1,36 @@
+pcd_dir : "./data/KITTI-Semantic/sequences/00/velodyne"
+pcd_extension : ".bin"
+
+label_dir : "./data/KITTI-Semantic/sequences/00/labels"
+label_extension : ".label"
+
+
+dataset_cfg_path : "./config//_VisDatasetYAML/semantic-kitti.yaml"
+viewpoint_cfg_path : "./config/_VisViewJson/viewpoint.json"
+
+start_frame : 0
+#start_frame : 100
+#end_frame : 200
+end_frame : -1
+interval : 1
+
+position : 
+  left : 300
+  top : 100
+  width : 1400
+  height : 800
+
+
+point_size : 5
+background_color : [0.05,0.05,0.05]
+#background_color : [1.00,1.00,1.00]
+#background_points_color : [0.0,0.0,0.0]
+background_points_color : [1.00,1.00,1.00]
+# it will highlight the target label
+# eg. 10 for car
+# empty for original label
+#target_label_list : [10,11,40,50]
+target_label_list : []
+bool_inv : False
+bool_map : False
+

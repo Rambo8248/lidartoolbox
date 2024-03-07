@@ -1,0 +1,19 @@
+RED = [1,0,0]
+WHITE = [1,1,1]
+GREEN = [0,1,0]
+BLUE = [0,0,1]
+GRAY = [0.5,0.5,0.5]
+BLACK = [0.0,0.0,0.0]
+MEAT = [245 / 255, 150 / 255, 100 / 255]
+PINK = [1, 0, 1]
+SHALLOW_BLUE =  [0, 200/255, 1]
+YELLOW = [1,1,0]
+
+# cmap_str = "viridis"
+# cmap_str = "rainbow"
+# cmap_str = "Reds"
+# cmap_str = "Blues"
+# cmap_str = "seismic"
+# cmap_str = "winter"
+# cmap_str = "hot"
+# cmap_str = "cool"
