@@ -1,7 +1,3 @@
-
-
-This is an useful toolbox for the developers who need to process the point cloud collected by various types of sensors like LiDAR.
-
 This is an useful toolbox for the developers who need to process the point cloud collected by various types of sensors like LiDAR.
 
 # Dependencies
@@ -85,4 +81,4 @@ The functions of this toolbox include:
 https://github.com/chaomath/open3d-kitti-visualization
 https://github.com/PRBonn/semantic-kitti-api
 https://github.com/yknapp/lidar2bev
->>>>>>> a926232751d01c0b06bc48559d1af5bb80e896fb
+
